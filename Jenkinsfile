@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                bash -e R -e "date()"
+                bash -e R -e "date(); date()"
             }
         }
     }
